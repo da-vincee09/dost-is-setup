@@ -1,0 +1,23 @@
+{
+  "beneficiaries": [],
+  "payments": [],
+  "receipts": [],
+  "deferments": [],
+  "adjustments": [],
+  "documents": [],
+  "settings": {
+    "organizationName": "",
+    "officeAddress": "",
+    "officeContact": "",
+    "defaultReportHeading": "",
+    "currencyFormat": "Philippine Peso",
+    "dateFormat": "MMM DD, YYYY",
+    "defaultRepaymentMonths": 36,
+    "preparedBy": "",
+    "reviewedBy": "",
+    "approvedBy": "",
+    "defaultRowsPerTable": 10,
+    "themePreference": "Light"
+  },
+  "activity": []
+}

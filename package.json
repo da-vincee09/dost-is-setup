@@ -1,0 +1,20 @@
+{
+  "name": "ilocos-sur-refund-collection-system",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Integrated local backend and frontend for the Ilocos Sur Refund and Collection Monitoring System.",
+  "scripts": {
+    "dev": "node scripts/dev-server.mjs",
+    "start": "node scripts/dev-server.mjs",
+    "build": "node scripts/build.mjs",
+    "lint": "node scripts/lint.mjs",
+    "typecheck": "node scripts/typecheck.mjs",
+    "test": "node scripts/smoke-test.mjs",
+    "import:supabase": "node scripts/import-excel-to-supabase.mjs",
+    "archive:setup-refunds": "node scripts/archive-eligible-setup-refunds.mjs"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
